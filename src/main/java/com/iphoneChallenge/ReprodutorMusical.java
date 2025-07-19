@@ -1,20 +1,8 @@
 package com.iphoneChallenge;
 
-public class ReprodutorMusical {
-
-	private String musica;
+public interface ReprodutorMusical {
 	
-	public void tocar() {
-		System.out.println();
-	};
-	
-	public void pausar() {
-		System.out.println();
-	};
-	
-	public void selecionarMusica(String musica) {
-		System.out.println();
-	};
-	
-
+	void tocar();
+	void pausar();
+	void selecionarMusica(String musica);
 }
